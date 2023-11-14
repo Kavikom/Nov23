@@ -18,7 +18,8 @@
          xmlns:bpelx="http://schemas.oracle.com/bpel/extension"
          xmlns:bpel="http://docs.oasis-open.org/wsbpel/2.0/process/executable">
 
-    <import ui:processWSDL="true" namespace="http://xmlns.oracle.com/PracticeApplication/BillingManagementSystem/BSBPELProcess" location="../WSDLs/BSBPELProcess.wsdl" importType="http://schemas.xmlsoap.org/wsdl/"/>
+    <import ui:processWSDL="true" namespace="http://xmlns.oracle.com/PracticeApplication/BillingManagementSystem/BSBPELProcess"
+            location="oramds:/apps/BillingSystem/WSDLs/BSBPELProcess.wsdl" importType="http://schemas.xmlsoap.org/wsdl/"/>
     <!-- 
       ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         PARTNERLINKS                                                      
